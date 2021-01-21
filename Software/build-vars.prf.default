@@ -1,4 +1,4 @@
-# This file contains the default values for qmake
+﻿# This file contains the default values for qmake
 # Create build-vars.prf and modify the respective variables for your setup
 
 #------------------------------------------------------------------------------
@@ -6,14 +6,14 @@
 #------------------------------------------------------------------------------
 win32: {
 	# Set this to -Win32 for 32-bit
-	OPENSSL_DIR = "C:\\OpenSSL-Win64\\bin"
+        OPENSSL_DIR = "C:\Users\Grahomi\Desktop\openssl-64\lib"
 	# Set this to run without openssl. The updatecheck won't work.
 	# DEFINES += NO_OPENSSL
 
 	# optional: BASS library directory, for sound visualization (http://www.un4seen.com/)
 	DEFINES += BASS_SOUND_SUPPORT
-	BASS_DIR = "C:\\bass"
-	BASSWASAPI_DIR = "C:\\bass\\wasapi"
+        BASS_DIR = "C:\bass"
+        BASSWASAPI_DIR = "C:\bass\wasapi"
 
 	# optional: Night Light support, x86_64 only (https://github.com/zomfg/NightLightLibrary/releases)
 	DEFINES += NIGHTLIGHT_SUPPORT
